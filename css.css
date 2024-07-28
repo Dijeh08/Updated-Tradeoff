@@ -1,0 +1,319 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+#trade{
+    color: #088395;
+}
+#off{
+    color: #37B7C3;
+}
+
+.carousel-block{
+    background-color: #37B7C3;
+    margin-top: 10px;
+    color: white;
+    font-size: 1rem;
+    
+   
+    padding-left: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+
+.grid-container{
+    display: grid;
+    grid-template-rows: 250px 250px;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    
+}
+.first{
+    grid-area: 1/1/3/3;
+    width: 100%;
+
+}
+.second{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    width: 100%;
+    padding: 5px;
+    padding-left: 0px;
+    position: relative;
+}
+.card  button{
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+}
+.third{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    width: 100%;
+    padding: 5px;
+    padding-left: 0px;
+}
+.fourth{
+    grid-area: 2/3/3/4;
+    width: 100%;
+    padding: 5px;
+    padding-left: 0px;
+}
+.fifth{
+    grid-area: 2/4/3/5;
+    width: 100%;
+    padding: 5px;
+    padding-left: 0px;
+}
+img{
+    
+    padding: 5px 5px;
+}
+
+
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+
+.navba {
+    overflow: hidden;
+    background-color: #37B7C3;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    padding-left: 1.5%; 
+  }
+  
+  .navba a {
+    float: left;
+    font-size: 16px;
+    color: #EBF4F6;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+  }
+  
+  .dropdow {
+    
+    float: left;
+    overflow: hidden; 
+  }
+  
+  .dropdow .dropbutton {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: #EBF4F6;
+    padding: 5px 7px;
+    background-color: inherit;
+    font: inherit;
+    margin: 0;
+    
+  }
+  
+  .navba a:hover, .dropdow:hover .dropbutton {
+    background-color: #088395;
+    color: black;
+  }
+  
+  .dropdow-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 100%;
+    left: 0;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdow-content .header {
+    background: #071952;
+    padding: 5px; 
+    color: #EBF4F6;
+  }
+  
+  .dropdow:hover .dropdow-content {
+    display: block;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    background-color: #ccc;
+    height: 70vh;
+  }
+  
+  .column a {
+    float: none;
+    color: black;
+    padding: 10px;
+    padding-bottom: 0px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .column a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+
+ 
+
+#navbar-menu .navbar {
+    
+    background-color: #37B7C3;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    
+  }
+
+  #navbar-menu .dropdown-content {
+    display: none;
+    position: relative;
+    background-color: #f9f9f9;
+    width: 100%;
+    left: 0;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: #EBF4F6;
+    text-align: center;
+    padding: 10px 10px;
+  }
+#navbar-menu .dropdown {
+    padding: 0px 5px;
+    float: left;
+    
+    
+  }
+
+#navbar-menu .dropdown-content .row{
+    width: 70vw;
+    position: absolute;
+    left: 50%;
+    
+    
+}
+
+/* button */
+#navbar-menu .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+   
+    color: #EBF4F6;
+    padding: 2px 5px;
+    background-color: inherit;
+    font: inherit;
+    margin: 0;
+    
+  }
+
+  
+/* Handles display of the dropdown when button hovered */
+#navbar-menu .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  
+#navbar-menu .mini-menu .dropdown:hover .dropbtn {
+    background-color: #088395;
+    color: black;
+}
+
+/* Create three equal columns that floats next to each other */
+#navbar-menu .column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    padding-left: 0px;
+    background-color: #ccc;
+    height: 70vh;
+  }
+
+#navbar-menu .column a {
+    float: none;
+    color: black;
+    padding: 10px;
+    padding-bottom: 0px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  #navbar-menu .column a:hover {
+    background-color: #ddd;
+  }
+
+/* Clear floats after the columns */
+   .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+ #navbarsExample03{
+    width: 100%;
+    padding: 0% 1%;
+ }
+@media (min-width:992px) {
+  .hiden-menu{
+    display: none;
+  }
+}
+
+@media (max-width: 992px){
+   
+    .grid-container{
+        display: block;
+    }
+    .navba{
+        display: none;
+    }
+    .card > button{
+        position: absolute;
+        left: 80%;
+        top: 70%;
+    }
+   
+}
+
+#navbar-menu .mini-menu .navbar-collapse .dropdown{
+  width: 100%;
+}
+
+#navbar-menu .mini-menu .navbar-collapse .dropdown button{
+  width: 100%;
+  display: inline-flex;
+  justify-content:space-between;
+  
+}
+
+#navbar-menu .mini-menu .navbar-collapse .dropdown-content{
+  display: none;
+}
